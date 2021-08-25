@@ -1,0 +1,16 @@
+{
+  "name": "frontdocs",
+  "version": "1.0.0",
+  "description": "front、前端文档",
+  "main": "index.js",
+  "repository": "http://192.168.10.5:3000/frontOrg/frontDocs.git",
+  "author": "velen <896662364@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.24"
+  }
+}
