@@ -2,8 +2,11 @@ name: docs
 
 on:
   # 每当 push 到 main 分支时触发部署
+  # push:
+  #   branches: [gh-pages]
   push:
-    branches: [gh-pages]
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
   # 手动触发部署
   workflow_dispatch:
 

@@ -2,6 +2,7 @@ module.exports = {
   lang: 'zh-CN',
   title: '前端',
   description: '前端相关',
+  base: '/front-docs/',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
     navbar: [
